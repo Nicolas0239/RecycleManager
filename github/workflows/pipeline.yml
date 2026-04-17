@@ -1,0 +1,36 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restaurar dependências
+        run: dotnet restore
+
+      - name: Build da aplicação
+        run: dotnet build --no-restore
+
+      - name: Rodar testes
+        run: dotnet test --no-build --verbosity normal
+
+      - name: Build da imagem Docker
+        run: docker build -t recycle-api .
+
+      - name: Deploy Staging
+        run: echo "Deploy em ambiente de staging realizado"
+
+      - name: Deploy Produção
+        run: echo "Deploy em produção realizado"

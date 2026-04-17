@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000002}|tests\\RecycleManager.Tests\\RecycleManager.Tests.csproj|c:\\users\\daniel\\downloads\\recyclemanager (1)\\recyclemanager\\tests\\recyclemanager.tests\\collectionpointcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00000000-0000-0000-0000-000000000002}|tests\\RecycleManager.Tests\\RecycleManager.Tests.csproj|solutionrelative:tests\\recyclemanager.tests\\collectionpointcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000002}|tests\\RecycleManager.Tests\\RecycleManager.Tests.csproj|c:\\users\\daniel\\downloads\\recyclemanager (1)\\recyclemanager\\tests\\recyclemanager.tests\\recyclemanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{00000000-0000-0000-0000-000000000002}|tests\\RecycleManager.Tests\\RecycleManager.Tests.csproj|solutionrelative:tests\\recyclemanager.tests\\recyclemanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000001}|src\\RecycleManager.Api\\RecycleManager.Api.csproj|c:\\users\\daniel\\downloads\\recyclemanager (1)\\recyclemanager\\src\\recyclemanager.api\\recyclemanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{00000000-0000-0000-0000-000000000001}|src\\RecycleManager.Api\\RecycleManager.Api.csproj|solutionrelative:src\\recyclemanager.api\\recyclemanager.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000001}|src\\RecycleManager.Api\\RecycleManager.Api.csproj|c:\\users\\daniel\\downloads\\recyclemanager (1)\\recyclemanager\\src\\recyclemanager.api\\domain\\collectionpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00000000-0000-0000-0000-000000000001}|src\\RecycleManager.Api\\RecycleManager.Api.csproj|solutionrelative:src\\recyclemanager.api\\domain\\collectionpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000001}|src\\RecycleManager.Api\\RecycleManager.Api.csproj|c:\\users\\daniel\\downloads\\recyclemanager (1)\\recyclemanager\\src\\recyclemanager.api\\controllers\\collectionpointcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00000000-0000-0000-0000-000000000001}|src\\RecycleManager.Api\\RecycleManager.Api.csproj|solutionrelative:src\\recyclemanager.api\\controllers\\collectionpointcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecycleManager.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\src\\RecycleManager.Api\\RecycleManager.Api.csproj",
+              "RelativeDocumentMoniker": "src\\RecycleManager.Api\\RecycleManager.Api.csproj",
+              "ToolTip": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\src\\RecycleManager.Api\\RecycleManager.Api.csproj",
+              "RelativeToolTip": "src\\RecycleManager.Api\\RecycleManager.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T00:33:03.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecycleManager.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\tests\\RecycleManager.Tests\\RecycleManager.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\RecycleManager.Tests\\RecycleManager.Tests.csproj",
+              "ToolTip": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\tests\\RecycleManager.Tests\\RecycleManager.Tests.csproj",
+              "RelativeToolTip": "tests\\RecycleManager.Tests\\RecycleManager.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T00:29:27.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollectionPointController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\src\\RecycleManager.Api\\Controllers\\CollectionPointController.cs",
+              "RelativeDocumentMoniker": "src\\RecycleManager.Api\\Controllers\\CollectionPointController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\src\\RecycleManager.Api\\Controllers\\CollectionPointController.cs",
+              "RelativeToolTip": "src\\RecycleManager.Api\\Controllers\\CollectionPointController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:18:35.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CollectionPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\src\\RecycleManager.Api\\Domain\\CollectionPoint.cs",
+              "RelativeDocumentMoniker": "src\\RecycleManager.Api\\Domain\\CollectionPoint.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\src\\RecycleManager.Api\\Domain\\CollectionPoint.cs",
+              "RelativeToolTip": "src\\RecycleManager.Api\\Domain\\CollectionPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:18:24.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollectionPointControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\tests\\RecycleManager.Tests\\CollectionPointControllerTests.cs",
+              "RelativeDocumentMoniker": "tests\\RecycleManager.Tests\\CollectionPointControllerTests.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Downloads\\RecycleManager (1)\\RecycleManager\\tests\\RecycleManager.Tests\\CollectionPointControllerTests.cs",
+              "RelativeToolTip": "tests\\RecycleManager.Tests\\CollectionPointControllerTests.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:14:41.254Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
