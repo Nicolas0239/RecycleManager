@@ -4,7 +4,9 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY tests .
+
+COPY . .
+
 WORKDIR /src/src/RecycleManager.Api
 RUN dotnet publish -c Release -o /app/publish
 
