@@ -19,8 +19,7 @@ docker-compose up --build
 ```
 
 A aplicação estará disponível em:
-http://localhost:8080
-
+(http://localhost:8080/swagger)
 ---
 
 # Pipeline CI/CD
