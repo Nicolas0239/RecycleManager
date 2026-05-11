@@ -1,92 +1,62 @@
-# Projeto - RecycleManager (Cidades ESG Inteligentes)
+# RecycleManager - Cidades ESG Inteligentes
 
-# Descrição
+![CI/CD Pipeline](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO/actions/workflows/ci-cd.yml/badge.svg)
+![Qodana Code Quality](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO/actions/workflows/qodana.yml/badge.svg)
 
-API desenvolvida em .NET com foco em gerenciamento de dados relacionados a sustentabilidade (ESG), utilizando boas práticas de DevOps.
+##  Sobre o Projeto
+O **RecycleManager** é uma API robusta desenvolvida em .NET 8, projetada para gerenciar dados críticos de sustentabilidade e pontos de coleta. O projeto aplica o conceito de **Governança de Dados (G)** do ecossistema ESG, assegurando que o rastreamento de resíduos seja auditável e livre de falhas de integridade.
 
 ---
 
-#Como executar com Docker
+## Como Executar a Aplicação
 
-### Pré-requisitos
-
-* Docker instalado
-
-### Passos
-
+### Via Docker (Recomendado)
+A aplicação utiliza uma estratégia de *multi-stage build* para garantir imagens leves e seguras.
 ```bash
 docker-compose up --build
-```
 
-A aplicação estará disponível em:
-(http://localhost:8080/swagger)
----
+Após o build, a documentação interativa (Swagger) estará disponível em:
+ http://localhost:8080/swagger
 
-# Pipeline CI/CD
+Qualidade de Software e Governança
+Este projeto utiliza uma pirâmide de testes automatizados para validar os requisitos de negócio e técnicos:
 
-Foi utilizado o GitHub Actions para automação do ciclo de vida da aplicação.
+BDD (Behavior Driven Development): Cenários de usuário escritos em Gherkin (SpecFlow), garantindo que as funcionalidades atendam às necessidades dos stakeholders ambientais.
 
-### Etapas do pipeline:
+Testes de Contrato (JSON Schema): Validação rígida através do material.schema.json, assegurando que integrações externas não sofram rupturas por mudanças de schema.
 
-* Build da aplicação (.NET)
-* Execução de testes automatizados
-* Build da imagem Docker
-* Deploy simulado em ambiente de staging
-* Deploy simulado em ambiente de produção
+Robustez de API: Validação de DTOs para garantir que apenas dados completos sejam persistidos, retornando corretamente 400 Bad Request em caso de falhas.
 
-O pipeline é acionado automaticamente a cada push na branch main.
+Para rodar a suíte de testes localmente:
 
----
+Bash
+dotnet test
+ Pipeline CI/CD Automatizado
+O ciclo de vida do software é gerido via GitHub Actions, executando as seguintes etapas a cada push na branch main:
 
-# Containerização
+Build & Restore: Validação da integridade do código fonte .NET 8.
 
-A aplicação foi containerizada utilizando Docker com estratégia de **multi-stage build**, permitindo:
+Automated Testing: Execução de testes de integração, BDD e validação de contratos.
 
-* Redução do tamanho da imagem final
-* Separação entre build e execução
-* Maior eficiência e segurança
+Quality Gate (Qodana): Análise estática profunda para detecção de vulnerabilidades e melhoria de performance.
 
-Também foi utilizado Docker Compose para orquestrar:
+Containerization: Geração de imagem Docker e preparação para deploy.
 
-* API (.NET)
-* Banco de dados SQL Server
+Simulated Deployment: Fluxo de entrega contínua para ambientes de Staging e Produção.
 
----
+Infraestrutura e Tecnologia
+Backend: .NET 8 (Web API)
 
-# Prints do funcionamento
+Persistência: Entity Framework Core & SQL Server
 
-<img width="1340" height="596" alt="image" src="https://github.com/user-attachments/assets/2824dae8-76ba-49fc-a897-31eb7513fe23" />
+Qualidade: xUnit, FluentAssertions, SpecFlow, Newtonsoft.Json.Schema
 
-* Pipeline rodando no GitHub Actions
-* API funcionando no navegador/Postman
-* Containers rodando (docker ps)
+DevOps & Ops: Docker, Docker Compose, GitHub Actions, Qodana
 
----
+ Desafios Superados
+Integridade de Dados: Implementação de validações em nível de Controller para garantir que objetos vazios não fossem criados, corrigindo falhas de governança detectadas nos testes de integração.
 
-# Tecnologias utilizadas
+Orquestração: Configuração do Docker Compose para garantir a comunicação fluida entre a API .NET e o banco de dados SQL Server.
 
-* .NET 8
-* SQL Server
-* Docker
-* Docker Compose
-* GitHub Actions
+CI/CD: Automação total do pipeline, incluindo o escaneamento de qualidade de código em tempo real.
 
----
-
-# Desafios encontrados
-
-* Configuração do pipeline CI/CD
-* Erro de Dockerfile não encontrado no pipeline
-* Integração entre aplicação e banco via Docker
-
----
-
-# Checklist
-
-[x] Projeto compactado em .ZIP com estrutura organizada
-[x] Dockerfile funcional
-[x] docker-compose.yml
-[x] Pipeline com etapas de build, teste e deploy
-[x] README.md com instruções e prints
-[x] Documentação técnica com evidências
-[x] Deploy realizado (simulado)
